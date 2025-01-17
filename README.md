@@ -1,2 +1,2 @@
-# grimdocs.github.io
+# grimdocs
 grimdocs website
