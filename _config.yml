@@ -1,7 +1,7 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
+title: grimdocs
+email: info@grimdocs.com
+description: Technical documentation and communications
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
