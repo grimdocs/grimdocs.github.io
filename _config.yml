@@ -1,9 +1,9 @@
 # Site settings
 title: grimdocs
 email: info@grimdocs.com
-description: Technical documentation and communications
+description: Technical documentation services
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://www.grimdocs.com" # the base hostname & protocol for your site
 
 twitter_username:
 github_username: grimdocs/grimdocs.github.io
