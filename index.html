@@ -481,21 +481,7 @@
                 <h2>Ready to fix your documentation?</h2>
                 <p style="margin-bottom: 3rem; font-size: 1.1rem; opacity: 0.9;">Let's talk about your specific challenges and how we can help.</p>
                 <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="project">What's your biggest documentation headache?</label>
-                            <textarea id="project" name="project" placeholder="e.g., Our API docs are confusing and we're getting tons of support tickets..." required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Let's Fix This →</button>
-                    </form>
+                    <a href="mailto:info@grimdocs.com?subject=Website contact" class="submit-btn" style="display: inline-block; text-decoration: none;">Get In Touch →</a>
                 </div>
             </div>
         </section>
@@ -503,7 +489,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 GrimDocs. Making documentation that doesn't suck.</p>
+            <p>&copy; 2025 GrimDocs. Making documentation that doesn't suck. - Created by Claude Sonnet 4 28-06-2025</p>
         </div>
     </footer>
 
@@ -532,13 +518,6 @@
                 header.style.background = 'rgba(255, 255, 255, 0.95)';
                 header.style.boxShadow = 'none';
             }
-        });
-
-        // Form submission
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            // Add your form submission logic here
-            alert('Thanks for reaching out! We\'ll get back to you soon.');
         });
 
         // Animate service cards on scroll
